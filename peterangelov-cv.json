@@ -1,0 +1,229 @@
+{
+  "basics": {
+    "name": "Peter Angelov",
+    "label": "DevOps Team Lead",
+
+    "email": "peterangelov@yahoo.com",
+    "phone": "+359 89 8600449",
+    "summary": "DevOps person with significant experience in a number of fields",
+    "location": {
+      "address": "",
+      "postalCode": "",
+      "city": "Sofia",
+      "countryCode": "BG",
+      "region": "Bulgaria"
+    },
+    "profiles": [{
+      "network": "Linkedin",
+      "username": "peter-angelov-2a60645",
+      "url": "https://www.linkedin.com/in/peter-angelov-2a60645/"
+    }]
+  },
+  "work": [{
+    "name": "Cognyte",
+    "position": "DevOps Team Lead",
+    "url": "https://www.cognyte.com",
+    "startDate": "2020-01-01",
+    "endDate": "",
+    "summary": "Recruited, trained and managed a small DevOps team in a product company focused on cyber security. Main focus was on:",
+    "highlights": [
+      "Jenkins CI/CD", "Ansible playbooks", "AWS provisioning (CloudFormation and Terraform)", "python development", "general and in-depth Linux operation", "team training and management", "sprint planing and review", "assistance for systems architecture benchmarking"
+    ]
+  },
+    {
+    "name": "Cognyte/Verint",
+    "position": "Senior DevOps",
+    "url": "https://www.cognyte.com",
+    "startDate": "2017-09-01",
+    "endDate": "2020-01-01",
+    "summary": "Senior DevOps for a network intrusion detection product",
+    "highlights": [
+      "software packaging and installation in deb packages", "automated offline installation of kubernetes cluster", "CI/CD support and improvements", "development of automation tools with python", "generic suppot to developers"
+    ]
+  },
+    {
+    "name": "SoftServe",
+    "position": "Senior DevOps",
+    "url": "https://www.softserve.com",
+    "startDate": "2015-12-01",
+    "endDate": "2017-09-01",
+    "summary": "Worked on internal and external projects, provided training to junior engineers and participated in remote and onsite customer meetings",
+    "highlights": [
+      "automation with python and ansible for a customer project", "Jenkins CI/CD for a customer", "Azure deployments for a customer"
+    ]
+  },
+    {
+    "name": "Aviaso Ltd (acquired by Honeywell)",
+    "position": "Systems administrator",
+    "url": "https://www.honeywell.com/bg/bg",
+    "startDate": "2014-07-01",
+    "endDate": "2015-11-01",
+    "summary": "systems administrator in a startup company doing data warehousing and business intelligence",
+    "highlights": [
+      "Oracle RDBMS for DWH", "deployment, support, monitoring and troubleshooting", "Linux administration", "JVM analysis and troubleshooting", "nagios monitoring", "pyvmomi scripting for VM shadow clones/QA tests"
+    ]
+  },
+    {
+    "name": "Comverse Network Technologies",
+    "position": "NGVM/VAS Tier 3.5 Support Engineer",
+    "url": "https://en.wikipedia.org/wiki/Comverse_Technology",
+    "startDate": "2013-01-01",
+    "endDate": "2014-07-01",
+    "summary": "Remote support for VAS solutions (voicemail, missed calls notification, SMS) deployed in telecom operators core",
+    "highlights": [
+      "troubleshooting and assistance on upgrades and malfunctions", "debugging of SS7 (ISUP, MAP, MTP) problems", "Oracle SQL troubleshooting", "Linux and Solaris maintenance and support"
+    ]
+  },
+    {
+    "name": "Hewlett-Packard Enterprise",
+    "position": "Technology Consultant",
+    "url": "www.hpe.com",
+    "startDate": "2012-01-01",
+    "endDate": "2013-01-01",
+    "summary": "Part of an engineering/consultant team working in network automation, service automation, CMDB and enterprise monitoring tools",
+    "highlights": [
+      "worked on integrating monitoring in a secure financial environment", "added content to HP Service Automation", "assisted integration of HP Network Automation, Operations Orchestration and uCMDB"
+    ]
+  },
+    {
+    "name": "Circles Technologies (acquired by NSO)",
+    "position": "Integration Lead",
+    "url": "https://www.nsogroup.com/",
+    "startDate": "2010-06-01",
+    "endDate": "2012-12-01",
+    "summary": "Integration Lead in a small startup oriented towards mobile security",
+    "highlights": [
+      "created and improved system design and architecture", "automated build cycle for software and hardware", "GSM SS7 integration", "led the deployment (remote and onsite) in a number of high-security customers"
+    ]
+  },
+    {
+    "name": "Comverse Network Technologies",
+    "position": "Deployment Engineer/VAS",
+    "url": "https://en.wikipedia.org/wiki/Comverse_Technology",
+    "startDate": "2007-01-01",
+    "endDate": "2010-06-01",
+    "summary": "On-site deployment engineer - voicemail equipment for mobile operators",
+    "highlights": [
+      "SS7 ISUP and MAP integration", "integration with customer/operator core network", "equipment set up and configuration", "integration with billing environment", "communication with local customer engineers", "handled deployments in France, Poland, South Africa, Hungary, Bosnia, Bulgaria, Croatia, Roumania and others.."
+    ]
+  },
+    {
+    "name": "Hewlett Packard",
+    "position": "Unix Support",
+    "url": "www.hpe.com",
+    "startDate": "2006-05-01",
+    "endDate": "2007-01-01",
+    "summary": "Remote support for Unix (Solaris, HP-UX and Digital mostly) and Linux (RHEL, OpenSUSE, ...) environments and Oracle RDBMS instances for large enterprise customers",
+    "highlights": [
+      "proactive and reactive support and maintenance", "worked on HA cluster (HP Service Guard, RHEL HA clustering and Solaris SunCluster)", "FC-SAN and filesystem volumes management"
+    ]
+  },
+    {
+      "name": "Intracom Bulgaria",
+      "position": "Systems administrator",
+      "url": "http://www.intracombg.com",
+      "startDate": "2004-10-01",
+      "endDate": "2006-05-01",
+      "summary": "the IT person in a small company",
+      "highlights": [
+        "workstation installation and support",
+        "migration from workgroups to Microsoft Windows AD and Microsoft Exchange",
+        "VPN creation and management for remote offices",
+        "procurement of hardware and software for the company's needs"
+      ]
+    }
+  ],
+  "volunteer": [{
+    "organization": "Young hikers club",
+    "position": "Management council member",
+    "url": "http://young-hikers.com/",
+    "startDate": "2019-02-01",
+    "endDate": "2024-02-01",
+    "summary": "A non-profit organization for organizing and promoting mountain hikes, bike rides, etc "
+  }],
+  "education": [{
+    "institution": "Sofia University",
+    "url": "https://uni-sofia.bg/",
+    "area": "English Studies",
+    "studyType": "Bachelor",
+    "startDate": "2000-10-01",
+    "endDate": "2004-06-01",
+    "score": ""}],
+  "awards": [{
+    "title": "Outstanding employee",
+    "date": "2021-02-01",
+    "awarder": "Cognyte",
+    "summary": "Awarded for merit and achievements"
+  }],
+  "skills": [{
+    "name": "Linux knowledge",
+    "level": "expert",
+    "keywords": [
+      "filesystems",
+      "networking stack",
+      "in-depth kernel knowledge",
+      "using linux as a workstation"
+    ]
+  },{
+    "name": "Kubernetes",
+    "level": "expert",
+    "keywords": [
+      "using kubernetes in an air-gapped network", "ansible playbooks for applicaiton management", "running stateless and stateful application in the cluster", "application performance benchmark and tuning", "CNI benchmarking"
+    ]
+  },{
+    "name": "Ansible",
+    "level": "expert",
+    "keywords": [
+      "using ansible as the main deployment tool", "used for deployment in vCenter/ESXi and kubernetes", "jinja2 configuration templating"
+    ]
+  },{
+    "name": "DBA - SQL databases",
+    "level": "intermediate/expert",
+    "keywords": [
+      "ORACLE RDBMS, MySQL, pgSQL tuning and performance", "database backups - strategy and implementation", "multi-node DB active-active DB clusters - architecture and implementation"
+    ]
+  },{
+    "name": "packet networking",
+    "level": "intermediate/expert",
+    "keywords": [
+      "network troubleshooting", "configuration of edge, L2 and L3 devices", "performance analysis", "network design"
+    ]
+  },{
+    "name": "software packaging",
+    "level": "intermediate",
+    "keywords": [
+      "RPM package creation", "deb package creation", "MSI packaging"
+    ]
+  },{
+    "name": "AWS",
+    "level": "intermediate",
+    "keywords": [
+      "EC2", "VPC", "Service Catalog", "cost optimization", "terraform"
+    ]
+  }],
+  "languages": [{
+    "language": "English",
+    "fluency": "Native speaker"
+  },{
+    "language": "Russian",
+    "fluency": "Understanding/basic communication"
+  },{
+    "language": "Bulgarian",
+    "fluency": "Native speaker"
+  }],
+  "interests": [{
+    "name": "going around",
+    "keywords": [
+      "hiking", "biking", "camping", "climbing", "motorcycling"
+    ]
+  },{
+    "name": "literature",
+    "keywords": [
+      "science fiction", "philosophy", "cognitive science", "neuroscience"
+    ]
+  }],
+  "references": [{
+    "name": "",
+    "reference": ""
+  }]
+}
