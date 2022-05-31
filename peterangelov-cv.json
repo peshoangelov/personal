@@ -19,12 +19,24 @@
       "url": "https://www.linkedin.com/in/peter-angelov-2a60645/"
     }]
   },
-  "work": [{
+  "work": [
+    {
+    "name": "Outdoorsy",
+    "position": "DevOps/SRE",
+    "url": "https://www.outdoorsy.co",
+    "startDate": "2020-05-30",
+    "endDate": "",
+    "summary": "",
+    "highlights": [
+      "Github CI/CD", "Ansible playbooks", "GCE", "GCP", "datadog"
+    ]
+    },
+    {
     "name": "Cognyte",
     "position": "DevOps Team Lead",
     "url": "https://www.cognyte.com",
     "startDate": "2020-01-01",
-    "endDate": "",
+    "endDate": "2022-05-27",
     "summary": "Recruited, trained and managed a small DevOps team in a product company focused on cyber security. Main focus was on:",
     "highlights": [
       "Jenkins CI/CD", "Ansible playbooks", "AWS provisioning (CloudFormation and Terraform)", "python development", "general and in-depth Linux operation", "team training and management", "sprint planing and review", "assistance for systems architecture benchmarking"
