@@ -22,22 +22,22 @@ function createMusicEducationQuiz() {
         .build());
 
     const q1a = quiz.addTextItem();
-    q1a.setTitle('1а. Към кое от направленията в музикалната психология принадлежи следното твърдение:\n"Музикалността е следствие от социалните условия, в които израства личността. Всички деца се раждат с еднакъв природен потенциал, а музикалността изцяло зависят от обучението (и неговите методи)".')
+    q1a.setTitle('1а. Към кое от направленията в музикалната психология принадлежи следното твърдение:\n\n"Музикалността е следствие от социалните условия, в които израства личността. Всички деца се раждат с еднакъв природен потенциал, а музикалността изцяло зависят от обучението (и неговите методи)".')
     .setRequired(true)
     .setPoints(8);
 
     const q1b = quiz.addTextItem();
-    q1b.setTitle('1б. Към кое от направленията в музикалната психология принадлежи следното твърдение:\n"Музикалността е вродена, унаследена и не се влияе от обучението."')
+    q1b.setTitle('1б. Към кое от направленията в музикалната психология принадлежи следното твърдение:\n\n"Музикалността е вродена, унаследена и не се влияе от обучението."')
     .setRequired(true)
     .setPoints(8);
     
     const q1c = quiz.addTextItem();
-    q1c.setTitle('1в. Към кое от направленията в музикалната психология принадлежи следното твърдение:\n"Музикалността е повлияна от биологичните и социалните фактори. Социалната среда влияе и работи върху това, което човек е получил от природата."')
+    q1c.setTitle('1в. Към кое от направленията в музикалната психология принадлежи следното твърдение:\n\n"Музикалността е повлияна от биологичните и социалните фактори. Социалната среда влияе и работи върху това, което човек е получил от природата."')
     .setRequired(true)
     .setPoints(8);
 
     const q2 = quiz.addTextItem();
-    q2.setTitle('2. Избройте трите основните музикални дейности:')
+    q2.setTitle('2. Избройте трите основни музикални дейности:')
     .setRequired(true)
     .setPoints(25);
 
@@ -108,7 +108,7 @@ function createMusicEducationQuiz() {
 
     // Question 10: List of short answers
     const q10 = quiz.addParagraphTextItem();
-    q10.setTitle('10. Чрез изразните средства на музиката се осъществява музикалното възпитание. Кои са изразните средства на музиката?')
+    q10.setTitle('10. Чрез изразните средства на музиката се осъществява музикалното възпитание.\nКои са изразните средства на музиката?')
     .setRequired(true)
     .setPoints(25);
 
@@ -126,7 +126,7 @@ function createMusicEducationQuiz() {
     
     // Question 12: Short answer
     const q12 = quiz.addCheckboxItem();
-    q12.setTitle('12/ Кои от изброените са основни ядра в образователно направление „Музика“:')
+    q12.setTitle('12. Кои от изброените са основни ядра в образователно направление „Музика“:')
         .setChoices([
             q12.createChoice('Възприемане', true),
             q12.createChoice('Възпроизвеждане', true),
@@ -154,7 +154,7 @@ function createMusicEducationQuiz() {
         .setPoints(25);
 
     const q14 = quiz.addMultipleChoiceItem();
-    q14.setTitle('Кой от изброените подходи на педагогическо взаимодействие е свързан с организация и провеждане на всички дейности в групата, ориентирани към разгръщане на творчески способности на детето в играта, общуването и обучението?')
+    q14.setTitle('14. Кой от изброените подходи на педагогическо взаимодействие е свързан с организация и провеждане на всички дейности в групата, ориентирани към разгръщане на творчески способности на детето в играта, общуването и обучението?')
     .setChoices([
         q14.createChoice('комуникативен подход'),
         q14.createChoice('личностно-ориентиран подход'),
@@ -189,92 +189,55 @@ function createMusicEducationQuiz() {
     const img = UrlFetchApp.fetch('https://files.pesho.net/filebrowser/api/public/dl/Q-rK5fsL/milena_exam/16.png');
     const q16i = quiz.addImageItem();
         q16i.setImage(img)
-            .setTitle('16. Изображение на нотен ключ')
+        q16i.setTitle('Изображение 16.')
 
-
-    // Question 16: Multiple choice for note clefs
     const q16a = quiz.addParagraphTextItem();
-    q16a.setTitle('16a. Напишене името на нотния ключ:')
+    q16a.setTitle('16a. Напишене името на левия нотен ключ от изображение 16:')
     .setRequired(true)
     .setPoints(8);
 
     const q16b = quiz.addParagraphTextItem();
-    q16b.setTitle('16б. Напишене името на нотния ключ:')
+    q16b.setTitle('16б. Напишене името на средния нотен ключ от изображение 16:')
     .setRequired(true)
     .setPoints(8);
 
     const q16c = quiz.addParagraphTextItem();
-    q16c.setTitle('16в. Напишене името на нотния ключ:')
+    q16c.setTitle('16в. Напишене името на десния нотен ключ от изображение 16:')
     .setRequired(true)
     .setPoints(8);
 
     const q17 = quiz.addParagraphTextItem();
-    q17.setTitle('17. На колко октавови групи се разделя звукоредът? Напишете техните имена:')
+    q17.setTitle('17. На колко октавови групи се разделя звукоредът?\nНапишете техните имена:')
     .setRequired(true)
     .setPoints(25);
 
     const q18 = quiz.addParagraphTextItem();
-    q18.setTitle('18. Попълнете пропуснатото понятие: “Слоговите наименования на тоновете са въведени от Гвидо д’Арецо във връзка с неговия метод ......................................., като средство за усъвършенстване на нотното пеене. Те представляват началните слогове от първите шест стиха на популярният по онова време химн за Йоан Кръстител.”')
+    q18.setTitle('18. Попълнете пропуснатото понятие:\n“Слоговите наименования на тоновете са въведени от Гвидо д’Арецо във връзка с неговия метод ......................................., като средство за усъвършенстване на нотното пеене. Те представляват началните слогове от първите шест стиха на популярният по онова време химн за Йоан Кръстител.”')
     .setRequired(true)
     .setPoints(25);
 
+    const q19i = quiz.addImageItem();
+    q19i.setImage(UrlFetchApp.fetch('https://files.pesho.net/filebrowser/api/public/dl/6w8TypvP/milena_exam/19.png'))
+    .setTitle('Изображение 19.')
+
     const q19 = quiz.addParagraphTextItem();
-    q19.setTitle('19. Напишете имената на следните нотни стойности и паузи под всяко изображение:')
+    q19.setTitle('19. Напишете имената на следните нотни стойности и паузи от ляво на дясно от изображение 19:')
     .setRequired(true)
     .setPoints(25)
 
-    // const q19i = quiz.addImageItem();
-    // q19i.setImage(UrlFetchApp.fetch('https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Clef_G.svg/1200px-Clef_G.svg.png'))
-    // .setTitle('19. Изображение на нотен ключ')
-    // .setHelpText('Изображение на нотен ключ')
+    const q20 = quiz.addGridItem();
+        q20.setTitle('20. Вярно или грешно е твърдението:')
+        q20.setRows(['Четвъртината е равна на две половини',
+            'Цялата е равна на четири четвъртини',
+            'Четвъртината е равна на две осмини',
+            'Половината е равна на три осмини',
+            'Половината с точка е равна на три четвъртини'])
+        q20.setColumns(['Вярно', 'Грешно'])
+        .setRequired(true);
 
-    const q20a = quiz.addCheckboxItem();
-    q20a.setTitle('20а. Четвъртината е равна на две половини')
-    .setChoices([
-        q20a.createChoice('Вярно', true),
-        q20a.createChoice('Грешно')
-    ])
-    .setRequired(true)
-    .setPoints(5);
-
-    const q20b = quiz.addCheckboxItem();
-    q20b.setTitle('20б. Цялата е равна на четири четвъртини')
-    .setChoices([
-        q20b.createChoice('Вярно', true),
-        q20b.createChoice('Грешно')
-    ])
-    .setRequired(true)
-    .setPoints(5);
-
-    const q20c = quiz.addCheckboxItem();
-    q20c.setTitle('20в. Четвъртината е равна на две осмини')
-    .setChoices([
-        q20c.createChoice('Вярно'),
-        q20c.createChoice('Грешно', true)
-    ])
-    .setRequired(true)
-    .setPoints(5);
-    
-    const q20d = quiz.addCheckboxItem();
-    q20d.setTitle('20г. Половината е равна на три осмини')
-    .setChoices([
-        q20d.createChoice('Вярно'),
-        q20d.createChoice('Грешно', true)
-    ])
-    .setRequired(true)
-    .setPoints(5);
-
-    const q20e = quiz.addCheckboxItem();
-    q20e.setTitle('20е. Половината с точка е равна на три четвъртини')
-    .setChoices([
-        q20e.createChoice('Вярно'),
-        q20e.createChoice('Грешно', true)
-    ])
-    .setRequired(true)
-    .setPoints(5);
 
     const q21 = quiz.addCheckboxItem();
-    q21.setTitle('21. Какъв вид са изброените темпа: Allegro, Vivo, Vivace, Presto, Prestissimo?')
+    q21.setTitle('21. Какъв вид са изброените темпа:\n\nAllegro, Vivo, Vivace, Presto, Prestissimo?')
     .setChoices([
         q21.createChoice('Бавни темпа'),
         q21.createChoice('Умерени темпа'),
@@ -283,25 +246,36 @@ function createMusicEducationQuiz() {
     .setRequired(true)
     .setPoints(25);
 
+    const q22i = quiz.addImageItem();
+    q22i.setImage(UrlFetchApp.fetch('https://files.pesho.net/filebrowser/api/public/dl/WeUJ-e7W/milena_exam/22.png'))
+    .setTitle('Изображение 22')
+
     const q22 = quiz.addParagraphTextItem();
-    q22.setTitle('22. Каква нотна стойност (една нотна стойност) може да се напише на мястото на въпросителния знак в следващите примери?')
+    q22.setTitle('22. Каква нотна стойност (една нотна стойност) може да се напише на мястото на въпросителния знак в примерите от изображение 22?')
     .setRequired(true)
     .setPoints(25)
-    .setHelpText('Отговори с една нотна стойност, например: четвъртина, осмина и т.н.');
+    .setHelpText('\n\nОтговорете с една нотна стойност, например: четвъртина, осмина и т.н.');
 
     const q23 = quiz.addParagraphTextItem();
-    q23.setTitle('    23. С кои от изброените знаци се означава тиха и с кои – силна динамика: f; mf; pp; fff; mp; p; fp; ppp; pppp; ffff?')
+    q23.setTitle('23. С кои от изброените знаци се означава тиха и с кои – силна динамика:\n\n      f; mf; pp; fff; mp; p; fp; ppp; pppp; ffff?')
     .setRequired(true)
     .setPoints(25)
-    .setHelpText('Знаци за тиха динамика: ....., Знаци за силна динамика: ....');
+    .setHelpText('\n\nЗнаци за тиха динамика: .....,\n Знаци за силна динамика: ....');
 
+    const q24i = quiz.addImageItem();
+    q24i.setImage(UrlFetchApp.fetch('https://files.pesho.net/filebrowser/api/public/dl/D7FoWNpF/milena_exam/24.png'))
+    q24i.setTitle('Изображение 24.')
     const q24 = quiz.addParagraphTextItem();
-    q24.setTitle('24. Избройте елементи от нотната писменост, които виждате на картината.')
+    q24.setTitle('24. Избройте елементи от нотната писменост, които виждате в изображение 24.')
     .setRequired(true)
     .setPoints(25);
 
+    const q25i = quiz.addImageItem();
+    q25i.setImage(UrlFetchApp.fetch('https://files.pesho.net/filebrowser/api/public/dl/bbQYwY_x/milena_exam/25.png'))
+    .setTitle('Изображение 25')
+
     const q25 = quiz.addParagraphTextItem();
-    q25.setTitle('25. Определете какъв е размерът на двата нотни примера?')
+    q25.setTitle('25. Определете какъв е размерът на двата нотни примера от изображение 25?')
     .setRequired(true)
     .setPoints(25);
 
@@ -319,13 +293,13 @@ function createMusicEducationQuiz() {
     // Question 28: Matching question (simulated with multiple choice)
     const q28 = quiz.addGridItem();
     q28.setTitle('28. Свържете всяко твърдение със съответния отговор:')
-    q28.setRows(['Темпо - Бързината, с която се изпълнява музиката',
-        'Звукоред - Сборът от всички тонове в музикалната система подредени по височина',
-        'Ритъм - Организирано, логично редуване на тонови трайности',
-        'Динамика - Силата, с която се изпълнява музиката',
-        'Ноти - Запис на тоновете в музиката',
-        'Тембър - Своеобразното звучене на инструмент или глас',
-        'Пауза - Знак за мълчание в музиката'
+    q28.setRows(['Бързината, с която се изпълнява музиката.',
+        'Сборът от всички тонове в музикалната система подредени по височина.',
+        'Организирано, логично редуване на тонови трайности.',
+        'Силата, с която се изпълнява музиката.',
+        'Звуковете на речта записваме с букви, а тоновете в музиката записваме с ________ .',
+        'Своеобразното звучене на инструмент или глас.',
+        'Знак за мълчание в музиката.'
     ])
     q28.setColumns(['Темпо', 'Звукоред', 'Ритъм', 'Динамика', 'Ноти', 'Тембър', 'Пауза'])
     .setRequired(true);
